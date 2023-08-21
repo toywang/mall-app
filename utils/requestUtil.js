@@ -3,7 +3,7 @@ import Request from '@/js_sdk/luch-request/request.js'
 const http = new Request()
 
 http.setConfig((config) => { /* 设置全局配置 */
-	config.baseUrl = 'http://localhost:8085' /* 根域名不同 */
+	config.baseUrl = 'http://localhost:3000' /* 根域名不同 */
 	config.header = {
 		...config.header
 	}
